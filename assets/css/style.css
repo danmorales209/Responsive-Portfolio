@@ -226,6 +226,7 @@ textarea {
 
 .box1 {
     background-image: url("http://lorempixel.com/300/300");
+    background-size: cover;
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,6 +234,7 @@ textarea {
 
 .box2 {
     background-image: url("http://lorempixel.com/300/300");
+    background-size: cover;
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,6 +242,7 @@ textarea {
 
 .box3 {
     background-image: url("http://lorempixel.com/300/300");
+    background-size: cover;
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,6 +250,7 @@ textarea {
 
 .box4 {
     background-image: url("http://lorempixel.com/300/300");
+    background-size: cover;
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -254,13 +258,7 @@ textarea {
 
 .box5 {
     background-image: url("http://lorempixel.com/300/300");
-    background-attachment: local;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.box6 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-size: cover;
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,6 +268,8 @@ textarea {
         #wrapper
         #header-wrapper
         #main-container
+        nav
+        header
     Styles Specific to index:
         #main-container p
         #main-container img
@@ -367,37 +367,61 @@ textarea {
         line-height: 4;
     }
 
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        padding: 0 20px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
     #main-container {
         background-color: #ffffff;
         border: 1px solid #dddddd;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        padding: 0 5% 5% 5%;
-        margin: 0;
-        width: auto;
+        padding: 10px;
+        margin: 2% auto;
+        width: 80%;
     }
 
     #main-container img {
-        float: left;
-        margin-right: 10px;
-        width: 30%;
+        display: inline-block;
+        margin: 10px 10%;
+        width: 80%;
         height: auto;
     }
 
     #main-container p {
         line-height: 1.5;
-        margin: 10px auto;
+        margin: 10px 10%;
         font-size: 16px;
-        width: auto;
+        width: 80%;
     }
     
-
     .portfolio-box {
         display: inline-block;
-        width: 300px;
-        height: 300px;
+        width: 80%;
+        height: auto;
         background-color: green;
-        margin: 2% 20%;
+        margin: 10px 10%;
         border: 2px solid #777777;
+    }
+
+    .portfolio-link {
+        display: block;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #ffffff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 5%;
+        font-size: 24px;
     }
 
 

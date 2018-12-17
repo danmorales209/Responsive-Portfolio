@@ -264,7 +264,7 @@ textarea {
     background-repeat: no-repeat;
 }
 
-/*  Common ids: 
+/*  Common Styles: 
         #wrapper
         #header-wrapper
         #main-container
@@ -275,6 +275,7 @@ textarea {
         #main-container img
     Styles Specific to Porfolio:
         .portfolio-box
+        .portfolio-link
 */
 
 

@@ -266,6 +266,18 @@ textarea {
     background-repeat: no-repeat;
 }
 
+/*  Common ids: 
+        #wrapper
+        #header-wrapper
+        #main-container
+    Styles Specific to index:
+        #main-container p
+        #main-container img
+    Styles Specific to Porfolio:
+        .portfolio-box
+*/
+
+
 @media screen and (max-width: 980px) {
 
     #wrapper {

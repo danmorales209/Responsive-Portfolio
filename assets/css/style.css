@@ -225,7 +225,7 @@ textarea {
 }
 
 .box1 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-image: url("../images/lotr.jpg");
     background-size: cover;
     background-attachment: local;
     background-position: center;
@@ -233,7 +233,7 @@ textarea {
 }
 
 .box2 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-image: url("../images/deathStar.jpeg");
     background-size: cover;
     background-attachment: local;
     background-position: center;
@@ -241,7 +241,7 @@ textarea {
 }
 
 .box3 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-image: url("../images/xtraLife.png");
     background-size: cover;
     background-attachment: local;
     background-position: center;
@@ -249,7 +249,7 @@ textarea {
 }
 
 .box4 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-image: url("../images/nyan.gif");
     background-size: cover;
     background-attachment: local;
     background-position: center;
@@ -257,7 +257,7 @@ textarea {
 }
 
 .box5 {
-    background-image: url("http://lorempixel.com/300/300");
+    background-image: url("../images/train.png");
     background-size: cover;
     background-attachment: local;
     background-position: center;

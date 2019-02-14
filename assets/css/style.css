@@ -264,6 +264,14 @@ textarea {
     background-repeat: no-repeat;
 }
 
+.box6 {
+    background-image: url("../images/train.png");
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*  Common Styles: 
         #wrapper
         #header-wrapper
